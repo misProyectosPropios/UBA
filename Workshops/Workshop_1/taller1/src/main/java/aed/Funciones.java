@@ -3,7 +3,7 @@ package aed;
 class Funciones {
     int cuadrado(int x) {
         // COMPLETAR
-        return 0;
+        return x*x;
     }
 
     double distancia(double x, double y) {
