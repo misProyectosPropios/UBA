@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="aed.FuncionesTest" time="0.267" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="aed.FuncionesTest" time="0.35" tests="13" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="20"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="AR"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-20\bin"/>
-    <property name="sun.java.command" value="C:\Users\Avaya\AppData\Local\Temp\surefire8335896098015870352\surefirebooter-20240816230326170_3.jar C:\Users\Avaya\AppData\Local\Temp\surefire8335896098015870352 2024-08-16T23-03-25_902-jvmRun1 surefire-20240816230326170_1tmp surefire_0-20240816230326170_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Avaya\AppData\Local\Temp\surefire17665985263458092141\surefirebooter-20240817091959357_3.jar C:\Users\Avaya\AppData\Local\Temp\surefire17665985263458092141 2024-08-17T09-19-59_094-jvmRun1 surefire-20240817091959357_1tmp surefire_0-20240817091959357_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Avaya\proyectosParaMostrar\UBA\Workshops\Workshop_1\taller1\target\test-classes;C:\Users\Avaya\proyectosParaMostrar\UBA\Workshops\Workshop_1\taller1\target\classes;C:\Users\Avaya\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\Avaya\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;C:\Users\Avaya\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Avaya\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\Avaya\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\Avaya\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Avaya\AppData\Local\Temp\surefire8335896098015870352\surefirebooter-20240816230326170_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Avaya\AppData\Local\Temp\surefire17665985263458092141\surefirebooter-20240817091959357_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="20.0.1+9-29"/>
@@ -58,6 +58,17 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="64.0"/>
   </properties>
-  <testcase name="testCuadrado" classname="aed.FuncionesTest" time="0.165"/>
-  <testcase name="testDistancia" classname="aed.FuncionesTest" time="0.01"/>
+  <testcase name="testPar" classname="aed.FuncionesTest" time="0.134"/>
+  <testcase name="testPrimo" classname="aed.FuncionesTest" time="0"/>
+  <testcase name="testTienePrimo" classname="aed.FuncionesTest" time="0"/>
+  <testcase name="testPrefijo" classname="aed.FuncionesTest" time="0"/>
+  <testcase name="testBusqueda" classname="aed.FuncionesTest" time="0"/>
+  <testcase name="testFactorialRecursivo" classname="aed.FuncionesTest" time="0"/>
+  <testcase name="testTodosPares" classname="aed.FuncionesTest" time="0"/>
+  <testcase name="testCuadrado" classname="aed.FuncionesTest" time="0"/>
+  <testcase name="testFactorialIterativo" classname="aed.FuncionesTest" time="0"/>
+  <testcase name="testDistancia" classname="aed.FuncionesTest" time="0"/>
+  <testcase name="testSufijo" classname="aed.FuncionesTest" time="0.015"/>
+  <testcase name="testBisiesto" classname="aed.FuncionesTest" time="0"/>
+  <testcase name="testSumatoria" classname="aed.FuncionesTest" time="0"/>
 </testsuite>
