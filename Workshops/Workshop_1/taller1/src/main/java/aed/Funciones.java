@@ -8,7 +8,7 @@ class Funciones {
 
     double distancia(double x, double y) {
         // COMPLETAR
-        return 0.0;
+        return Math.sqrt(x*x + y * y);
     }
 
     boolean esPar(int n) {
