@@ -183,7 +183,35 @@ public class ABB<T extends Comparable<T>> implements Conjunto<T> {
 
                 Nodo rigthLessValueNodo = lessNodo.right;
                 Nodo parentLessValueNodo = lessNodo.parent;
+                //El leftLessValue va a ser null siempre por definiciòn de antes
 
+                //El lessNodo tiene que tener los mismo valores
+                lessNodo.parent = parentPointerNodo;
+                lessNodo.left = leftPointeNodo;
+
+                if (lessNodo == rigthPointerNodo) {
+                    lessNodo.right = null;
+                } else {
+                    lessNodo.right = rigthPointerNodo;
+                }
+    
+                if (parentLessValueNodo.left == lessNodo) {
+                    parentLessValueNodo.left = rigthLessValueNodo; 
+                } else {
+                    parentLessValueNodo.right = rigthLessValueNodo;
+                }
+
+                if (rigthLessValueNodo != null) {
+                    rigthLessValueNodo.parent = parentLessValueNodo;
+                }
+
+                if (pointer.parent.left == pointer) {
+                    parentPointerNodo.left = lessNodo;
+                } else {
+                    parentPointerNodo.right = lessNodo;
+                }
+
+/* 
                 if (parentLessValueNodo.left == lessNodo) {
                     parentLessValueNodo.left = lessNodo;
                 } else {
@@ -193,18 +221,13 @@ public class ABB<T extends Comparable<T>> implements Conjunto<T> {
                 if (rigthLessValueNodo != null) {
                     rigthLessValueNodo.parent = parentLessValueNodo;
                 }
-/* 
-                this.root = lessNodo;
-                this.root.left = leftPointeNodo;
-                this.root.right = rigthPointerNodo;
-                this.root.parent = null; */
 
                 lessNodo.parent = parentPointerNodo;
                 lessNodo.left = leftPointeNodo;
                 lessNodo.right = leftPointeNodo;
 
                 
-
+*/
                 
 
             }
